@@ -256,4 +256,4 @@ async def dare(ctx):
             'Send me a picture of your first crush']
     await ctx.send(random.choice(dare))
 
-client.run(os.environ['Discord'])
+client.run('ODEwNzg3Mzg1OTQ3NDU1NDg4.YCoumA.T_yTx3uI2lPeO-wjF3rY9kNDRHs')
