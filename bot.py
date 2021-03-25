@@ -4,6 +4,7 @@ import os
 from discord.ext import commands
 
 client = commands.Bot(command_prefix='+')
+TOKEN = os.environ.get('DISCORD_TOKEN')
 
 @client.event
 async def on_ready():
@@ -256,4 +257,4 @@ async def dare(ctx):
             'Send me a picture of your first crush']
     await ctx.send(random.choice(dare))
 
-client.run('ODEwNzg3Mzg1OTQ3NDU1NDg4.YCoumA.Xk-EYvG8gw8WZ9_l3xsfvFp8r_I')
+client.run('TOKEN')
